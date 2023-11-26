@@ -29,6 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
+![image](https://github.com/Nospiel-code/fm-intro-component-with-signup-form/assets/130290610/a979f209-0422-42d6-89ee-64c7a0a90bb3)
+![image](https://github.com/Nospiel-code/fm-intro-component-with-signup-form/assets/130290610/578ed932-1fef-43ee-8cf8-101ddf88a2cc)
+![image](https://github.com/Nospiel-code/fm-intro-component-with-signup-form/assets/130290610/e13d449d-6dde-41a0-8d77-fb6afb74ac97)
+
+
 
 
 ### Links
