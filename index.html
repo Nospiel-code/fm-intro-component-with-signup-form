@@ -1,58 +1,38 @@
-# Frontend Mentor - Intro component with sign up form solution
+<!DOCTYPE html>
+<html lang="en">
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
 
 
-## Overview
+</head>
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the `form` is submitted if:
-  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
-
-### Screenshot
-
-
-
-### Links
-
-- [Solution URL](https://github.com/Nospiel-code/fm-intro-component-with-signup-form)
-- [Live Site URL](https://nospiel-code.github.io/fm-intro-component-with-signup-form/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- TailwindCSS
-- Flexbox
-- HTML Forms
-- Mobile First Workflow
-
-### What I learned
-
-I learned how to build a form including form validation using TailwindCSS
-
-```html
-
-<form class="group space-y-4 text-secondaryBlue100 font-semibold"
+<body
+  class="flex flex-col h-screen justify-center items-center bg-no-repeat bg-primaryRed bg-center bg-bgMobile xs:bg-bgDesktop xs:bg-repeat">
+  <main class="flex flex-col text-center my-auto mx-4 max-w-[25rem] md:flex-row md:max-w-4xl">
+    <!-- Heading and Text -->
+    <section class="py-10 md:text-left md:pr-10 md:flex md:flex-col md:justify-center md:flex-1">
+      <h1 class="font-bold text-2xl pb-4 md:text-4xl">
+        Learn to code by watching others
+      </h1>
+      <p class="">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    <!-- H2 and Form -->
+    <section class="md:flex-1">
+      <h2 class="bg-secondaryBlue400 p-4 px-8 rounded-md mb-4 shadow-customShadow">
+        <span class="font-semibold">Try it free 7 days</span> then $20/mo. thereafter
+      </h2>
+      <div class="bg-white rounded-md p-5 shadow-customShadowDark md:p-7">
+        <form class="group space-y-4 text-secondaryBlue100 font-semibold"
               novalidate>
           <div>
             <input
@@ -100,16 +80,19 @@ I learned how to build a form including form validation using TailwindCSS
           </p>
         </form>
 
-```
+
+      </div>
+    </section>
 
 
-### Useful resources
+  </main>
 
-- [Adding Custom Validation to a Form with TailwindCSS](https://dev.to/deyemiobaa/adding-custom-validation-to-a-form-with-tailwindcss-1e7d) - This site helped me to include the form validation
+  <footer class="z-0 text-center">
+    <p>
+      Challenge by <a href=" https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Thomas Schütz</a>.
+    </p>
+  </footer>
+</body>
 
-
-## Author
-
-- Frontend Mentor - [@Nospiel-code](https://www.frontendmentor.io/profile/Nospiel-code)
-- Twitter - [@tomsdev4](https://www.twitter.com/tomsdev4)
-
+</html>
